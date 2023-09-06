@@ -1,0 +1,23 @@
+.app
+{
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    filter: blur(10px); 
+}
+.content
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
